@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/bella"
+            tools:srcCompat="@drawable/bella" />
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/hasil"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="60dp"
+                android:text="TextView"
+                android:textColor="#000000"
+                android:textSize="25dp" android:fontFamily="@font/alice"/>
+
+        <TextView
+                android:id="@+id/uty"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:text="Universitas Teknologi Yogyakarta" android:fontFamily="@font/chicle"
+                android:textColor="#0222D3"/>
+
+        <TextView
+                android:id="@+id/prodi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Teknik Informatika 2017" android:fontFamily="@font/chicle"
+                android:textColor="#021DAD"/>
+
+        <TextView
+                android:id="@+id/lab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LAB Komputer 01" android:fontFamily="@font/chicle"
+                android:textColor="#061F9C"/>
+
+
+        <TextView
+                android:id="@+id/identitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Pemograman Mobile Praktikum" android:fontFamily="@font/macondo_swash_caps"
+                android:textColor="#03198F"/>
+    </LinearLayout>
+
+</LinearLayout>
